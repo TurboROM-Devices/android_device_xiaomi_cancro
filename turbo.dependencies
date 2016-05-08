@@ -1,0 +1,18 @@
+[
+ {
+   "repository": "android_device_qcom_common",
+   "target_path": "device/qcom/common"
+ },
+ {
+   "remote": "github",
+   "repository": "CyanogenMod/android_kernel_xiaomi_cancro",
+   "target_path": "kernel/xiaomi/cancro",
+   "branch": " cm-13.0"
+ },
+ {
+   "remote": "github",
+   "repository": "TheMuppets/proprietary_vendor_xiaomi",
+   "target_path": "vendor/xiaomi",
+   "branch": " cm-13.0"
+ }
+]
