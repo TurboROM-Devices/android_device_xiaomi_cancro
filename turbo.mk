@@ -32,8 +32,10 @@ $(call inherit-product, vendor/turbo/config/common_full_phone.mk)
 
 ## Device identifier. This must come after all inclusions
 PRODUCT_NAME := turbo_cancro
+BOARD_VENDOR  := xiaomi
 TARGET_VENDOR := Xiaomi
 PRODUCT_DEVICE := cancro
+
 PRODUCT_BRAND        := Xiaomi
 PRODUCT_MANUFACTURER := Xiaomi
 PRODUCT_MODEL        := MI Cancro
