@@ -38,7 +38,7 @@ on init
     setprop persist.sys.wfd.virtual 0
     # set logd.radio buffer size
     setprop persist.logd.size.radio "4M"
-	setprop persist.logd.prunelist "1000 1013"
+    setprop persist.logd.prunelist "1000 1013"
 
 on fs
     mount_all fstab.qcom
